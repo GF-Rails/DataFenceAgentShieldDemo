@@ -4,6 +4,8 @@ AgentShield authorizes AI-requested application functions before your code runs 
 
 It complements DataFence.Guardrails and is independent of it.
 
+Demo, protected DLLs and docs: https://github.com/GF-Rails/DataFenceAgentShieldDemo (this repository does not contain the source code).
+
 ## Before and after
 
 Before: the rules for an AI-requested function are scattered through your code.
