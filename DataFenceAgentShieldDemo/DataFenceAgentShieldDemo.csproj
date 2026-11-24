@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<OutputType>Exe</OutputType>
+	<TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="DataFence.AgentShield"><HintPath>..\DLL\net8.0\DataFence.AgentShield.dll</HintPath></Reference>
+	<Reference Include="DataFence.AgentShield.SqlServer"><HintPath>..\DLL\net8.0\DataFence.AgentShield.SqlServer.dll</HintPath></Reference>
+	<Reference Include="DataFence.AgentShield.DependencyInjection"><HintPath>..\DLL\net8.0\DataFence.AgentShield.DependencyInjection.dll</HintPath></Reference>
+	<PackageReference Include="System.Management" Version="10.0.13" />
+	<PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+	<PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.14" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+	<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+</Project>
